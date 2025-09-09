@@ -1,6 +1,6 @@
-FROM golang:1.19.5-alpine3.17 as build
+FROM golang:1.19.5-alpine3.17 AS build
 
-ENV GOPATH /go
+ENV GOPATH=/go
 
 WORKDIR $GOPATH/src/app
 
